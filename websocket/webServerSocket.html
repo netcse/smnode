@@ -10,7 +10,8 @@
         return text;
     }
 
-    var socket = new WebSocket('ws://localhost:80');
+    // var socket = new WebSocket('ws://localhost:80');
+    var socket = new WebSocket(' ws://127.0.0.1:45259/723543f4-b0d7-42cd-8c59-bcb2f4c5b4e0');
 
     socket.onopen = function (event) {
         window.setInterval(function () {
